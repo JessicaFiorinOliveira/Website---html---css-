@@ -1,0 +1,227 @@
+nav li {
+  display: inline;
+  margin: 0 0 0 120px;
+}
+
+nav a {
+  text-transform: uppercase;
+  color:  #5f5872;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #d5d5d5;;
+}
+
+.navbar {
+  padding: .8rem;
+}
+.navbar-nav li {
+  padding-right: 20px;
+}
+.nav-link {
+  font-size: 1.1em !important;
+}
+
+body{
+    margin:0%;
+    padding:0%;
+    color:#242424;
+    font-family: "CormorantGaramond-Light";
+    src: url("//fonts.gstatic.com/s/cormorantgaramond/v5/iEjm9hVxcattz37Y8gZwVbBfiualwvFStSOsxMaA9Xk.eot?#iefix");
+    src: url("//fonts.gstatic.com/s/cormorantgaramond/v5/iEjm9hVxcattz37Y8gZwVbBfiualwvFStSOsxMaA9Xk.eot?#iefix") format("eot"),
+    url("//fonts.gstatic.com/s/cormorantgaramond/v5/iEjm9hVxcattz37Y8gZwVSNMxVe3WGf96EDbCaLCBKE.woff2") format("woff2"),
+    url("//fonts.gstatic.com/s/cormorantgaramond/v5/iEjm9hVxcattz37Y8gZwVergGQquJ_f3dxTxEJk8ZKM.woff") format("woff"),
+    url("//fonts.gstatic.com/s/cormorantgaramond/v5/iEjm9hVxcattz37Y8gZwVXYC8UqYVZ_Us7w6eA7MdZE.ttf") format("truetype"),
+    url("//fonts.gstatic.com/l/font?kit=iEjm9hVxcattz37Y8gZwVQItn0uMP03uW4URT5yNJ1A&skey=4f9ed6f80d6d2fa0&v=v5#CormorantGaramond") format("svg");
+    word-wrap: break-word;
+    overflow-wrap:break-word;
+}
+
+.caixa{
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 0, #bbd8df 40%, rgb(51, 61, 78) 120% );
+}
+  
+h1,h2,h3,h4,h5{
+    font-weight: 900;
+    color:#eeeeee
+}
+
+.wrapper{
+    width:100%;
+    margin:0 auto;
+}
+
+.container{
+    width: 100%;
+    max-width: 760px;
+    margin:0 auto;
+    padding: 0 20px;
+}
+
+section.module p{
+    margin-bottom: 40px ;
+}
+
+section.module:last-child{
+    margin-bottom: 0;
+}
+
+section.module h2{
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+section.module.content{
+    padding: 40px;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 0, #bbd8df 40%, rgb(51, 61, 78) 120% );
+    background-color: #bbd8df;
+}
+
+section.module.parallax{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position:50% 50%;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    -webkit-background-size: cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+}
+
+section.module.parallax:after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 120% );
+}
+
+section.module.parallax-1{
+    background-image: url(https://www.institucional.europa.com.br/blog/wp-content/uploads/2019/05/mergulho-oceano.jpg);
+    }
+
+    section.module.parallax-2{
+    background-image: url(https://www.loreal-paris.com.br/-/media/project/loreal/brand-sites/oap/americas/br/artigos/cabelo/banner-e-corpo-349-a-368/banner-e-corpo-de-349-a-368/349/modelo-morena-com-cabelo-cacheado-sorrindo-na-praia.jpg?rev=f16f81018e654ec2b5c4a0244c9366af&cx=0.44&cy=0.29&cw=2000&ch=600&hash=955B1E147864BC222592E1DB88851A404059B094)
+}
+
+section.module.parallax-3{
+    background-image: url(https://catracalivre.com.br/wp-content/uploads/2019/05/pratagy-beach-all-inclusive-resort4-910x607.jpg)
+}
+
+section.module.parallax h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 78px;
+    z-index: 50;
+    text-transform: uppercase;
+}
+
+.contact-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .contact-content .link-btn {
+    border-radius: 0;
+    margin: 1.5rem 0;
+    display: block;
+    width: fit-content;
+  }
+  
+  .links-container {
+    flex: 0 1 300px;
+  }
+  
+  .links-container h3 {
+    margin: 1.5rem 0 0.5rem;
+    text-transform: uppercase;
+    color: #bbd8df;;
+  }
+  
+  .links-container li {
+    margin-bottom: 1rem;
+  }
+  
+  .links-container a:hover,
+  .links-container a:focus {
+    text-decoration: underline;
+  }
+  
+  .form-container {
+    flex: 1 0 auto;
+    max-width: 600px;
+    width: 100%;
+    margin-right: 3rem;
+  }
+  
+  .input-container {
+    position: relative;
+    margin: 1.5rem 0;
+  }
+  
+  .input-container .form-input {
+    width: 100%;
+    box-sizing: border-box;
+    background: #bbd8df;
+    caret-color: var(--shade-300);
+    border: 1px solid #145e70;;
+    color: var(--text-color);
+    transition: border 500ms;
+    padding: 1.75rem 1rem 0.5rem;
+    font-size: 1.15rem;
+  }
+  
+  .input-container textarea {
+    height: 300px;
+    resize: none;
+    font: inherit;
+  }
+  
+  .input-container label {
+    display: block;
+    position: absolute;
+    width: 100%;
+    font-size: 1.15rem;
+    top: 15px;
+    padding: 0.25rem 1rem;
+    color: var(--grey-text);
+    transform-origin: left;
+    user-select: none;
+    transition: all 500ms;
+  }
+  
+  .input-container .form-input:hover,
+  .input-container .form-input:focus {
+    outline: none;
+    border-color: var(--shade-300);
+  }
+  
+  .form-input:focus + label,
+  .focused label {
+    top: 0rem;
+    font-size: 0.75rem;
+    background-color: #bbd8df;
+    color: var(--background-color);
+    user-select: auto;
+  }
+  
+footer{
+    flex-shrink: 0;
+    z-index: 8;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 0, #bbd8df 30%, rgb(51, 61, 78) 120% );
+    background-color: #bbd8df;
+    color:#fff;
+    padding: 5px;
+    text-align: center;
+  }
+
